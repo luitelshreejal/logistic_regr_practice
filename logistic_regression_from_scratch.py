@@ -23,7 +23,7 @@ def predict_class(features, coefficients, intercept, threshold):
   #   elif i <= threshold:
   #     array_with_threshold.append(0)
 
-
+#final Notes; MAKE SURE TO UNDERSTAND HOW CALCULATED_COEFFICIENTS, intercept are calculated. 
 
 final_results = predict_class(hours_studied, calculated_coefficients, intercept, 0.5)
 
